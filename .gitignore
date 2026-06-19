@@ -1,0 +1,5 @@
+# Build artifact used to construct the DMG — not part of the release repo
+dmg/
+
+# The DMG is distributed via GitHub Releases assets, not committed here
+PaceBreak.dmg
