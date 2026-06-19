@@ -78,9 +78,18 @@ ITEM="        <item>
                 type=\"application/octet-stream\"/>
         </item>"
 
-awk -v item="$ITEM" -v marker="$MARKER" '
+# Insert via a temp file: passing a multi-line string through `awk -v` breaks
+# on macOS/BSD awk ("newline in string"), so awk reads the item with getline.
+ITEM_FILE="$(mktemp)"
+trap 'rm -f "$ITEM_FILE" "$APPCAST.tmp"' EXIT
+printf '%s\n' "$ITEM" > "$ITEM_FILE"
+
+awk -v itemfile="$ITEM_FILE" -v marker="$MARKER" '
   { print }
-  index($0, marker) { print item }
+  index($0, marker) {
+    while ((getline line < itemfile) > 0) print line
+    close(itemfile)
+  }
 ' "$APPCAST" > "$APPCAST.tmp" && mv "$APPCAST.tmp" "$APPCAST"
 echo "✓ appcast.xml updated for $TAG (length=$LENGTH)"
 

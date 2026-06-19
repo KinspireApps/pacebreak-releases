@@ -6,5 +6,17 @@
         <description>PaceBreak releases</description>
         <language>en</language>
         <!-- NEW RELEASES INSERTED BELOW -->
+        <item>
+            <title>Version 1.0</title>
+            <pubDate>Fri, 19 Jun 2026 18:28:42 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
+                sparkle:edSignature="8fSfr4nDaQ9FJ5IUAgCcmhVq3vvRIzsJ30BGJiHYNNfnS+SWA9L1StMg5a5Pqg5kcrVEni/enUD+ZyNE5vbbDQ=="
+                length="2038272"
+                type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
