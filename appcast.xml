@@ -14,8 +14,8 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="8fSfr4nDaQ9FJ5IUAgCcmhVq3vvRIzsJ30BGJiHYNNfnS+SWA9L1StMg5a5Pqg5kcrVEni/enUD+ZyNE5vbbDQ=="
-                length="2038272"
+                sparkle:edSignature="Ao+eUFIK15Ogq8951IoIuSAhWY2ufSwqCcS/jjCGjyVd68/tbu9d4bO4h4cOze0aFlDUQMmvRc5Y9FpacsJoAQ=="
+                length="2057930"
                 type="application/octet-stream"/>
         </item>
     </channel>
