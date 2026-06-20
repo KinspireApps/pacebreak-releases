@@ -9,109 +9,13 @@
         <item>
             <title>Version 1.0</title>
             <pubDate>Fri, 19 Jun 2026 20:39:01 +0000</pubDate>
-            <sparkle:version>7</sparkle:version>
+            <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
                 sparkle:edSignature="wzWI83bIGI7+LoWDi+HbvWWEvRWTJnrbU41fJQcfEiY4p5GGDzDpTS2n3wRCNXe8F7M8l9oAKzGpM9QQahuwCw=="
                 length="2079554"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 20:29:30 +0000</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="CBKChFx0ThYhgbyFxZMasOZcifVXQXFCiTAasNqVfMwY4RNN5fiAPL+dG0oKdDuPYdRYk/UvL8URnkU2E1cpDQ=="
-                length="2068826"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 20:16:17 +0000</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="fL+2ZfQ82xA2AxxktnO4/G8U/wQYRoxigKLhizkt2xtROXOa8ZCsxAxGBdEtozANkezCqQXGsjAE0jabqkvWAA=="
-                length="2071020"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 20:08:28 +0000</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="M0MmNHdzuhHsDXCYGvHwla7/o00avMlOCF5Z5jBTMSVWXnWWj7PTlk0iNtr3B4wjeaVi389nePyMaNdd196qDg=="
-                length="2068829"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 19:42:13 +0000</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="ohwOVJxYOA7AOJ+ph4wwQqyFlvRWIZLXsIGHrbEEb38YdQSRAOaKBljZKd1/xd8LA2UBRc+1E1pO3vlyvlqhDw=="
-                length="2059986"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 19:42:03 +0000</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="ohwOVJxYOA7AOJ+ph4wwQqyFlvRWIZLXsIGHrbEEb38YdQSRAOaKBljZKd1/xd8LA2UBRc+1E1pO3vlyvlqhDw=="
-                length="2059986"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 19:25:21 +0000</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="I6Shha2Ltq1/u1TaYndf6dmOpE6VJP7y7kA6A4clf+OEuevZhHUkU9SihNg7Ertv1nAs6IM1k7gbdeGxPNs9Aw=="
-                length="2059633"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 19:24:08 +0000</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="I6Shha2Ltq1/u1TaYndf6dmOpE6VJP7y7kA6A4clf+OEuevZhHUkU9SihNg7Ertv1nAs6IM1k7gbdeGxPNs9Aw=="
-                length="2059633"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.0</title>
-            <pubDate>Fri, 19 Jun 2026 18:28:42 +0000</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.0/PaceBreak.dmg"
-                sparkle:edSignature="Ao+eUFIK15Ogq8951IoIuSAhWY2ufSwqCcS/jjCGjyVd68/tbu9d4bO4h4cOze0aFlDUQMmvRc5Y9FpacsJoAQ=="
-                length="2057930"
                 type="application/octet-stream"/>
         </item>
     </channel>
