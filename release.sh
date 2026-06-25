@@ -141,5 +141,21 @@ git -C "$REPO_DIR" add appcast.xml
 git -C "$REPO_DIR" commit -m "Release $TAG"
 git -C "$REPO_DIR" push
 echo "✓ appcast.xml committed and pushed"
+
+# --- Trigger kinspiretech.com redeploy so the site shows the new version ---
+# Create a Deploy Hook in Cloudflare Pages and expose its URL as
+# PACEBREAK_SITE_DEPLOY_HOOK (e.g. in your shell profile). The website reads
+# the latest version from the GitHub release at build time, so a rebuild is
+# all that's needed. This step never fails the release.
+if [[ -n "${PACEBREAK_SITE_DEPLOY_HOOK:-}" ]]; then
+  if curl -fsS -X POST "$PACEBREAK_SITE_DEPLOY_HOOK" >/dev/null; then
+    echo "✓ Triggered kinspiretech.com redeploy"
+  else
+    echo "⚠ Could not trigger website redeploy (release is unaffected)" >&2
+  fi
+else
+  echo "ℹ Set PACEBREAK_SITE_DEPLOY_HOOK to auto-redeploy kinspiretech.com"
+fi
+
 echo
 echo "Done. Users on Sparkle will now see PaceBreak $VERSION."
