@@ -8,6 +8,30 @@
         <!-- NEW RELEASES INSERTED BELOW -->
         <item>
             <title>Version 1.1.0</title>
+            <pubDate>Thu, 25 Jun 2026 13:27:36 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.1.0/PaceBreak.dmg"
+                sparkle:edSignature="LGImeD/l8ovvuZ1bn14gdtkcFGStt7blLMOiUVaOcXSOaZGh5LOaeIzdA0S69+OJ2v8ZyXhCODJ3+P5B0DmnDA=="
+                length="2120381"
+                type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Thu, 25 Jun 2026 13:26:32 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/KinspireApps/pacebreak-releases/releases/download/v1.1.0/PaceBreak.dmg"
+                sparkle:edSignature="LGImeD/l8ovvuZ1bn14gdtkcFGStt7blLMOiUVaOcXSOaZGh5LOaeIzdA0S69+OJ2v8ZyXhCODJ3+P5B0DmnDA=="
+                length="2120381"
+                type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>Version 1.1.0</title>
             <pubDate>Thu, 25 Jun 2026 13:06:49 +0000</pubDate>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
